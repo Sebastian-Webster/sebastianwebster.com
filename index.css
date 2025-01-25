@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3440;
+    color: #ECEFF4;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+}
